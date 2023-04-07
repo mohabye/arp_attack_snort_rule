@@ -4,6 +4,7 @@ In this rule, we're looking for ARP packets where the source IP address (arp_spa
 The "alert" keyword triggers an alert when the rule is matched. The "msg" keyword specifies the message that will be displayed in the alert. The "sid" keyword assigns a unique ID to the rule, and the "rev" keyword specifies the revision number of the rule.
 
 You can customize this rule based on your network environment and security needs. Make sure to test the rule thoroughly before deploying it in a production environment 
+
 EX :
 Suppose you have a network with three devices: A, B, and C. Device A has an IP address of 192.168.1.1, device B has an IP address of 192.168.1.2, and device C has an IP address of 192.168.1.3.
 
